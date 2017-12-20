@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
    s.library   = "resolv"
   # s.libraries = "iconv", "xml2"
 
-    s.vendored_frameworks = "frameworks/AliyunVideoSDKBasic.framework"
+    s.vendored_frameworks = "frameworks/AliyunVideoSDK.framework"
     
     
     s.dependency 'QuCore-ThirdParty'
