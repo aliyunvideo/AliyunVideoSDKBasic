@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKBasic"
-  s.version      = "3.3.5"
+  s.version      = "3.3.5.1"
   s.summary      = "aliyun video sdk basic"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/aliyunvideo/AliyunVideoSDKPro.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/aliyunvideo/AliyunVideoSDKBasic.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
    s.library   = "resolv"
   # s.libraries = "iconv", "xml2"
 
-    s.vendored_frameworks = "frameworks/AliyunVideoSDKPro.framework"
+    s.vendored_frameworks = "frameworks/AliyunVideoSDKBasic.framework"
     
     
     s.dependency 'QuCore-ThirdParty'
