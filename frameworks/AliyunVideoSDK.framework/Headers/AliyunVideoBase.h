@@ -136,6 +136,18 @@
  */
 - (AliyunVideoRecordParam *)videoBasePhotoViewShowRecord:(UIViewController *)photoVC;
 
+
+
+/**
+ 裁剪完成回调
+ 
+ @param base AliyunVideoBase
+ @param cropVC 裁剪页VC
+ @param videoPath 视频保存路径
+ @param sourcePath 原视频路径
+ */
+- (void)videoBase:(AliyunVideoBase *)base cutCompeleteWithCropViewController:(UIViewController *)cropVC videoPath:(NSString *)videoPath sourcePath:(NSString *)sourcePath;
+
 @end
 
 
