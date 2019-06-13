@@ -126,8 +126,8 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "frameworks/AliyunVideoSDKPro.framework"
     
     
-    s.dependency 'QuCore-ThirdParty'
-    s.dependency 'VODUpload'
+  #  s.dependency 'QuCore-ThirdParty'
+  #  s.dependency 'VODUpload'
 
 
   
