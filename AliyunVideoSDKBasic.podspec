@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "SystemConfiguration", "MobileCoreServices"
+   s.frameworks = "SystemConfiguration", "MobileCoreServices", "CoreTelephony"
 
    s.libraries   = "resolv","c++"
   # s.libraries = "iconv", "xml2"
