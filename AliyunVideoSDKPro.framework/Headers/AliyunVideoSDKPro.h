@@ -78,4 +78,5 @@ FOUNDATION_EXPORT const unsigned char AliyunVideoSDKProVersionString[];
 #import <AliyunVideoSDKPro/AliyunTransitionEffectTranslate.h>
 #import <AliyunVideoSDKPro/AliyunVideoParam.h>
 #import <AliyunVideoSDKPro/AliyunVideoSDKInfo.h>
+#import <AliyunVideoSDKPro/AliyunEffectConfig.h>
 #endif
