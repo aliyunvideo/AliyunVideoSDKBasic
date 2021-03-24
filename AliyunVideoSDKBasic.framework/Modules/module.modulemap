@@ -1,0 +1,6 @@
+framework module AliyunVideoSDKBasic {
+  umbrella header "AliyunVideoSDKBasic.h"
+
+  export *
+  module * { export * }
+}
