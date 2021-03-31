@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
    s.libraries   = "resolv","c++"
   # s.libraries = "iconv", "xml2"
 
-  s.vendored_frameworks = "AliyunVideoSDKPro.framework","AliyunVideoCore.framework"
+  s.vendored_frameworks = "AliyunVideoSDKBasic.framework","AliyunVideoCore.framework"
     
     
     # s.dependency 'QuCore-ThirdParty'
