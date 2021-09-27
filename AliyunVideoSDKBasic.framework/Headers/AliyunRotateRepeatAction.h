@@ -13,16 +13,19 @@
  */
 @interface AliyunRotateRepeatAction : AliyunRotateAction
 
+
+
+
 /**
- 旋转一圈需要的时间
+ 旋转一圈需要的时间，基类的repeatCount不再起作用
  */
 @property(nonatomic, assign) float durationPerCircle;
 
 /**
- 是否重复；默认YES
+ 是否重复；默认YES，基类的repeatMode不再起作用
  */
 /**
- isRepeat; default: YES
+ isRepeat; default: YES. @repeatMode is invaild.
  */
 @property(nonatomic, assign) BOOL isRepeat;
 

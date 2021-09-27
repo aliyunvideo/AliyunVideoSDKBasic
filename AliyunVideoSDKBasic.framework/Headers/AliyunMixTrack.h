@@ -36,10 +36,6 @@
  边框信息
  API_AVAILABLE(3.21.0)
  */
-/**
- The border info of the video
- API_AVAILABLE(3.21.0)
- */
 @property(nonatomic, strong) AliyunPureColorBorderInfo *borderInfo;
 
 /**

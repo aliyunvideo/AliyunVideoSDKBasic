@@ -10,6 +10,14 @@
 #import <UIKit/UIKit.h>
 
 /**
+ 位移类型 API_AVAILABLE(3.25.0)
+ */
+typedef NS_ENUM(NSInteger, AliyunMoveActionTranslateType) {
+    AliyunMoveActionTranslateTypeTo,
+    AliyunMoveActionTranslateTypeBy,
+};
+
+/**
  平移动画
  */
 @interface AliyunMoveAction : AliyunAction
@@ -30,6 +38,11 @@
  动画移动的区域范围
  */
 @property(nonatomic, assign) CGSize displaySize;
+
+/**
+ 动画移动类型 详情看 @AliyunMoveActionTranslateType，默认to. API_AVAILABLE(3.25.0)
+ */
+@property(nonatomic, assign) AliyunMoveActionTranslateType translateType;
 
 /**
  初始化方法

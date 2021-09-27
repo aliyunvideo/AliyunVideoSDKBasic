@@ -154,7 +154,7 @@ id QUSDKObjectOrNull(id object);
 /**
  音效model类
  */
-@interface AliyunAudioEffect : AliyunJSONModel
+@interface AliyunAudioEffect : AliyunJSONModel<NSCopying>
 
 /**
  音效类型
@@ -173,7 +173,7 @@ id QUSDKObjectOrNull(id object);
  API_AVAILABLE(3.20.0)
  音频淡入淡出Model
  */
-@interface AliyunAudioFade : AliyunJSONModel
+@interface AliyunAudioFade : AliyunJSONModel<NSCopying>
 
 /**
  API_AVAILABLE(3.20.0)

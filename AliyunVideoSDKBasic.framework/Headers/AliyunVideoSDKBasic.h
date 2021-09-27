@@ -36,6 +36,7 @@ FOUNDATION_EXPORT const unsigned char AliyunVideoSDKProVersionString[];
 #import <AliyunVideoSDKBasic/AliyunAlphaAction.h>
 #import <AliyunVideoSDKBasic/AliyunClip.h>
 #import <AliyunVideoSDKBasic/AliyunCustomAction.h>
+#import <AliyunVideoSDKBasic/AliyunSetAction.h>
 #import <AliyunVideoSDKBasic/AliyunEffect.h>
 #import <AliyunVideoSDKBasic/AliyunEffectBlurBackground.h>
 #import <AliyunVideoSDKBasic/AliyunEffectCaption.h>
@@ -79,4 +80,7 @@ FOUNDATION_EXPORT const unsigned char AliyunVideoSDKProVersionString[];
 #import <AliyunVideoSDKBasic/AliyunVideoSDKInfo.h>
 #import <AliyunVideoSDKBasic/AliyunEffectConfig.h>
 #import <AliyunVideoSDKBasic/AliyunThumbnailParser.h>
+
+#import <AliyunVideoSDKBasic/AliyunPartAction.h>
+
 #endif

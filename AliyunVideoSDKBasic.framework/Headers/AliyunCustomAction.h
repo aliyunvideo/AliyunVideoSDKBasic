@@ -13,6 +13,13 @@
  */
 @interface AliyunCustomAction : AliyunAction
 
+
+/**
+ 自定义动画的顶点着色器代码
+ */
+@property(nonatomic, copy) NSString *vertexShader;
+
+
 /**
  自定义动画的片元着色器代码
  */

@@ -26,6 +26,7 @@
  */
 @property(nonatomic, assign) float toAlpha;
 
+
 /**
  初始化方法
 

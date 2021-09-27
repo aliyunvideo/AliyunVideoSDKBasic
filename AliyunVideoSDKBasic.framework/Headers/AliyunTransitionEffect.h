@@ -50,24 +50,15 @@ typedef enum : NSUInteger {
 /**
  转场类型
  */
-/**
- Transition Type
- */
 @property(nonatomic,assign) AliyunTransitionEffectType type;
 
 /**
  转场配置对象
  */
-/**
- The config object of Transition
- */
 @property(nonatomic,strong) AliyunEffectConfig* effectConfig;
 
 /**
  自定义转场本地资源路径
- */
-/**
- The local resouce path of  custom Transition
  */
 @property(nonatomic,copy) NSString *path;
 
@@ -83,9 +74,6 @@ typedef enum : NSUInteger {
 
 /**
  根据资源路径进行初始化
- */
-/**
- init by resource path
  */
 -(id)initWithPath:(NSString *)path;
 

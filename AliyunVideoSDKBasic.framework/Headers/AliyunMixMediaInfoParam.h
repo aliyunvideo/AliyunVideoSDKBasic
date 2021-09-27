@@ -8,35 +8,7 @@
 
 #import "AliyunVideoParam.h"
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
-@interface AliyunPureColorBorderInfo : NSObject
-/**
- 视频边框颜色
- */
-/**
- The border color of the video
- */
-@property (nonatomic, strong) UIColor *color;
-
-/**
- 视频边框宽度
- */
-/**
- The border width of the video
- */
-@property (nonatomic, assign) CGFloat width;
-
-/**
- 视频圆角半径
- */
-/**
- The radius of the video's corner
- */
-@property (nonatomic, assign) CGFloat cornerRadius;
-@end
-
-
+#import "AliyunPureColorBorderInfo.h"
 
 @interface AliyunMixMediaVideoInfo : NSObject
 
@@ -44,26 +16,15 @@
  视图层级
  数值大的视图在上方，数值相同的合拍录制视频在文件视频上方
  */
-/**
- The level of video view layer
- Bigger value above on lesser value layer
- If same value, the record video above on file video.
- */
 @property (nonatomic, assign) NSInteger layerLevel;
 
 /**
  视频边框信息
  */
-/**
- The border info of the video
- */
 @property (nonatomic, strong) AliyunPureColorBorderInfo *borderInfo;
 
 /**
  视频窗口的位置大小
- */
-/**
- The layout of the video in mix video
  */
 @property (nonatomic, assign) CGRect frame;
 @end
@@ -74,9 +35,6 @@
 /**
  视频采集分辨率
  */
-/**
- The resolution of the video
- */
 @property (nonatomic, assign) CGSize resolution;
 @end
 
@@ -86,16 +44,10 @@
 /**
  视频文件路径
  */
-/**
- The file path of the video
- */
 @property (nonatomic, copy) NSString *filePath;
 
 /**
  参与合拍的视频开始时间（秒）
- */
-/**
- The start time of the sample video of the duet.
  */
 @property (nonatomic, assign) CGFloat streamStartTime;
 
@@ -118,18 +70,10 @@
  合拍摄像头录制的视频
  API_AVAILABLE(3.21.0)
  */
-/**
- The video recorded by camera
- API_AVAILABLE(3.21.0)
- */
 @property(nonatomic, strong) AliyunMixMediaRecordVideoInfo *recordVideoInfo;
 
 /**
  参与合拍的视频
- API_AVAILABLE(3.21.0)
- */
-/**
- The sample video of the duet
  API_AVAILABLE(3.21.0)
  */
 @property(nonatomic, strong) AliyunMixMediaFileVideoInfo *mixVideoInfo;

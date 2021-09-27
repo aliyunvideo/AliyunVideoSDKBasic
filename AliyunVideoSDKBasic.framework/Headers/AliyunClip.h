@@ -148,6 +148,12 @@ typedef NS_ENUM(NSInteger, AliyunClipType) {
 @property(nonatomic, assign) NSInteger audioMixWeight;
 
 /**
+ API_AVAILABLE(3.25.0)
+ 降噪权值 [0~100]，取0表示关闭，值越大降噪越厉害
+ */
+@property(nonatomic, assign) NSInteger denoiseWeight;
+
+/**
  已废弃字段
  */
 @property(nonatomic, assign) CGFloat audioRecordStartTime __deprecated_msg("deprecated");
