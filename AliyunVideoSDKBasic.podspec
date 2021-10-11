@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/aliyunvideo/AliyunVideoSDKBasic.git", :tag => "#{s.version}" }
+  s.source       = { :http => "https://alivc-demo-cms.alicdn.com/versionProduct/sdk/shortVideo/3.25.0/iOS/AliyunVideoSDKBasic.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
    s.libraries   = "resolv","c++"
   # s.libraries = "iconv", "xml2"
 
-  s.vendored_frameworks = "AliyunVideoSDKBasic.framework","AliyunVideoCore.framework"
+  s.vendored_frameworks = "AliyunVideoSDKBasic/AliyunVideoSDKBasic.framework","AliyunVideoSDKBasic/AliyunVideoCore.framework"
     
     
   s.dependency 'QuCore-ThirdParty', '~> 4.3.0'
