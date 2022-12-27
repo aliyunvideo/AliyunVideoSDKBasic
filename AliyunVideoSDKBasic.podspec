@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AliyunVideoSDKBasic"
-  s.version      = "3.34.1"
+  s.version      = "3.35.0"
   s.summary      = "aliyun video sdk basic"
   s.description  = <<-DESC
                    It's an basic SDK for aliyun video, which implement by Objective-C.
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.frameworks   = "SystemConfiguration", "MobileCoreServices", "CoreTelephony"
   s.libraries    = "resolv","c++"
   s.vendored_frameworks = "AliyunVideoSDKBasic.framework"
-  s.dependency 'QuCore-ThirdParty', '~> 4.3.2'
+  s.dependency 'QuCore-ThirdParty', '~> 4.3.6'
 end
